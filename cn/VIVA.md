@@ -41,3 +41,9 @@ Exercise-specific questions are in the `VIVA.md` inside each exercise folder.
 26. **What is ICMP used for?** Error and diagnostic messages (ping, traceroute, "destination unreachable").
 27. **What is a network simulator and why use one?** Software that models a network; cheaper, faster and more repeatable than a real test bed (e.g. NS2).
 28. **Java classes for TCP and UDP?** TCP: `Socket`, `ServerSocket`. UDP: `DatagramSocket`, `DatagramPacket`.
+
+## Routing
+29. **Routing vs forwarding?** Routing builds the routing table (decides paths); forwarding moves each packet to the next hop using that table.
+30. **Route selection order?** Longest prefix match, then lowest metric (within a protocol), then lowest administrative distance (between protocols).
+31. **IGP vs EGP?** IGP routes inside one autonomous system (RIP, OSPF); EGP routes between autonomous systems (BGP, a path-vector protocol).
+32. **Which NS2 command fails/restores a link?** `rtmodel-at <time> down|up <node1> <node2>`.
