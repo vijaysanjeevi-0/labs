@@ -9,4 +9,6 @@
 | 5 | ex05-secure-test-cases | Python (Selenium) |
 | 6 | ex06-pentest-metasploitable | - (Kali CLI tools) |
 
+Each exercise's `README.md` has Aim, Apparatus required, Algorithm, Procedure, Program (where one exists), Sample Output and Result.
+
 `vulnerable.c` was compiled and run in this sandbox and reproduces the record's exact output and crash behaviour. `test_login_xss.py` compiles cleanly. PHP could not be installed here, so `login.php`/`xss.php` were written and reviewed by hand (brace-balance checked).

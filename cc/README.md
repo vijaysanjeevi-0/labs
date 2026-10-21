@@ -12,4 +12,4 @@
 | 8 | ex08-docker-first-container | Dockerfile |
 | 9 | ex09-docker-hub-run | - (Docker CLI) |
 
-Programs are minimal and kept to what's needed to reproduce the record's result. `hello.c` and `index.py` were run in this sandbox and confirmed. The Java (CloudSim, Hadoop) could not be compiled here — no `javac`/Hadoop/CloudSim jars available — so it was written and reviewed by hand; brace/paren balance checked.
+Each exercise's `README.md` has Aim, Apparatus required, Algorithm, Procedure, Program (where one exists), Sample Output and Result. `helloworld.c` and `index.py` were run in this sandbox and confirmed. The Java (CloudSim, Hadoop) could not be compiled here — no `javac`/Hadoop/CloudSim jars available — so it was written and reviewed by hand against the manual; brace/paren balance checked.
